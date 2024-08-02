@@ -21,16 +21,8 @@
                 <button type="button" name="login-btn" id="login-btn" onclick="checkInput()">Login</button>
             </div>
         </div>
-        
 
         <div id="catcher"></div>
-
-
-
-
-
-
-
     </body>
 
     <script src="script.js"></script>
@@ -65,7 +57,7 @@
         function jumpToAI(){
             var chance = Math.random();
             if (chance > 0){
-                //document.location.href="http://localhost:5173/";
+
                 window.open("http://localhost:5173/chat", "_blank");
             }
             document.getElementById("cheat-button").remove()
@@ -92,9 +84,13 @@
             }
             
         }
+        
+        addCheatButton()
+        /*
         setInterval(()=>{
             removeCheatButton()
             addCheatButton()
-        },3000)
+        },30000)
+        */
     </script>
 </html>

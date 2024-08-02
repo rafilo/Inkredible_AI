@@ -22,26 +22,18 @@ app.post("/chatbot", async (req, res) => {
   // We store the chatbot's response in the 'response' variable
   const response = await openai.chat.completions.create({
     messages: [
-      // We give the chatbot a role with some content to determine how it will behave
       {
         role: "system",
         content:
           "You are a professor who love using convoluted language when talking with other. Everytime student ask for clarification, you always ask them to stop making nonsense. If you don't know the answer of the student's question, always make up a response.",
       },
-      // We ask the chatbot to generate an answer based on the user's question
-      // Remember, this question will come from the frontend
       {
         role: "user",
         content: question,
       },
     ],
-    // We choose the model we want to use for our chatbot
     model: "gpt-3.5-turbo",
-    // We add a value for max_tokens to ensure the response won't exceed 300 tokens
-    // This is to make sure the responses aren't too long
     max_tokens: 300,
   });
-  // Then we take the text response and display it on the server
-  // Note: This will only work once we set up our frontend logic
   res.send(response.choices[0].message.content);
 });
