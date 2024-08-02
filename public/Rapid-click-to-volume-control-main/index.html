@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Volume</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="innerWrap">
+            <img src="resources/volume-none.png" id="volumeImg">
+            <div class="volume-bar">
+                <div class="volume-bar-active"></div>
+            </div>
+        </div>
+        <div>
+            <span>Volume : </span>
+            <span id="volValue">0</span>
+        </div>
+        <div>
+            <span>Clicks : </span>
+            <span id="clicks">0</span>
+        </div>
+        <div>
+            <span>Speed : </span>
+            <span id="cps">0</span><span> Clicks / Sec.</span>
+        </div>
+        <div>
+            <span>Elapsed Time : </span>
+            <span id="elapsedTime">0</span><span> Seconds</span>
+        </div>
+        <div>
+            <button id="hitButton">HIT</button>
+        </div>
+        <div>
+            <input type="file" accept="audio/*" id="audioFile">
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="resources/script.js"></script>
+<link rel="stylesheet" href="resources/style.css">
+</html>

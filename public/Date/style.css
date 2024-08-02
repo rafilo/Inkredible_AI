@@ -1,0 +1,25 @@
+
+:root{
+    --market-items: 4;
+}
+
+
+
+html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #232329;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+
+}
+
+.center-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

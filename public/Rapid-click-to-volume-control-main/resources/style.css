@@ -1,0 +1,40 @@
+    .innerWrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: inherit;
+    }
+    #volumeImg {
+        width : 20px;
+        margin-right: 5px;
+        transition: all 0.5s;
+    }
+    .volume-bar {
+        position: relative;
+        width: 100%;
+        height: 15px; 
+        background-color: #ddd;
+        overflow-x: hidden;
+    }
+    .volume-bar::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .volume-bar-active {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #0e94ff;
+        transition: all 0.1s;
+    }
+    #hitButton {
+        width: 100%;
+        height: 300px;
+    }
