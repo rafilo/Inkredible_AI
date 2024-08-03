@@ -66,7 +66,7 @@ function ChatBox() {
           />
         </div>
         <input
-          className="cursor-pointer bg-white text-white ml-2 p-2 px-5 font-mono font-bold"
+          className="cursor-pointer bg-black text-white ml-2 p-2 px-5 font-mono font-bold"
           value={loading ? loadingMessage : "Send >"}
           type="submit"
           disabled={loading}
