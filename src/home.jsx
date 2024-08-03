@@ -72,28 +72,28 @@ export default function Home() {
               className="text-sm font-semibold leading-6 text-white"
               onClick={() => clickkHeader()}
             >
-              Features
+              Features🥺
             </a>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-white"
               onClick={() => clickkHeader()}
             >
-              Marketplace
+              Marketplace🥺
             </a>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-white"
               onClick={() => clickkHeader()}
             >
-              Product
+              Product🥺
             </a>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-white"
               onClick={() => clickkHeader()}
             >
-              Company
+              Company🥺
             </a>
           </div>
           <div className="lg:flex lg:flex-1 lg:justify-end">

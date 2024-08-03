@@ -81,106 +81,106 @@ export default function Chat() {
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px) rotate(45deg)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px) rotate(90deg)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px) rotate(135deg)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px) rotate(125deg)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px) rotate(115deg)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
             <div
               style={{
                 position: "absolute",
-                backgroundColor: "white",
+                backgroundColor: "black",
                 borderRadius: "50%",
                 transform: `translate(${position.x - 20}px, ${
                   position.y - 100
                 }px) rotate(105deg)`,
                 left: -10,
-                top: -10,
-                width: 20,
-                height: 250,
-                opacity: 0.5,
+                top: -600,
+                width: 500,
+                height: 1650,
+                opacity: 0.8,
               }}
             />
           </>
