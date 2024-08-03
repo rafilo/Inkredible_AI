@@ -47,17 +47,22 @@ function ChatBox() {
   return (
     <div className="flex flex-col items-center h-3/4 py-2">
       {loading && <div className="modal z-50}"></div>}
-      <div className="border-white border border-solid p-4 mb-2 w-[800px] grow overflow-y-scroll">
+      <div className="border-white border border-solid p-4 mb-2 grow overflow-y-scroll">
         <pre>
           {messages.map((elem, key) => (
             <p key={key} className="whitespace-pre-wrap">
-              <b>{elem.is_user_message ? "Human:" : "Poofessor of Ink:"}</b> {elem.content}
+              <b>{elem.is_user_message ? "Human:" : "Poofessor of Ink:"}</b>{" "}
+              {elem.content}
             </p>
           ))}
         </pre>
       </div>
-      <form onSubmit={handleSubmit} className="flex w-[800px]">
-        <div className="flex grow items-center border-white border border-solid">
+      <form
+        onSubmit={handleSubmit}
+        className="flex"
+        style={{ width: "-webkit-fill-available" }}
+      >
+        <div className="flex grow items-center border-white border border-solid flex-5">
           <div className="font-bold ml-4">Human:</div>
           <input
             className="p-1 my-2 mx-4 h-12 font-mono grow"

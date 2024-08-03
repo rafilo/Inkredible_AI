@@ -128,7 +128,7 @@ export default function Home() {
             </span>
             <span> HERE to Login </span>
             <a
-              style={{ color: "white", cursor: "default", fontWeight: "400" }}
+              style={{ color: "white", cursor: "text", fontWeight: "400" }}
               href="./CatchLogin/index.html"
             >
               with
