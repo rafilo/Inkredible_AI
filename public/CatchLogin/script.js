@@ -80,11 +80,11 @@ function moveButton() {
   const element = document.getElementById("cheat-button");
   if (!element) return;
   const computedStyle = window.getComputedStyle(element);
-  var place = getRandomIntButton(1000);
+  var placeX = getRandomIntButton(1000);
+  var placeY = getRandomIntButton(1000);
   let currentTop = parseInt(computedStyle.getPropertyValue("top"));
-  currentTop += 2;
-  element.style.top = `${place}px`;
-  element.style.left = `${place}px`;
+  element.style.top = `${placeX}px`;
+  element.style.left = `${placeY}px`;
   if (element.id == 0)
     if (parseInt(element.style.top) > window.innerHeight)
       removeElement(element.id);
@@ -106,6 +106,7 @@ function moveButton() {
 
 function stopLoginLoop() {
   clearInterval(loginLoopInterval);
+  clearInterval(buttonMoveInterval)
   console.log("login stopped");
 }
 
