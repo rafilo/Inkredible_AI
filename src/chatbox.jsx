@@ -1,5 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
+import AIimg from "./assets/WechatIMG149.jpg"
+import humanimg from  "./assets/WechatIMG152.jpg"
 
 function ChatBox() {
   const [loading, setLoading] = useState(false);
@@ -50,8 +52,9 @@ function ChatBox() {
       <div className="border-white border border-solid p-4 mb-2 grow overflow-y-scroll">
         <pre>
           {messages.map((elem, key) => (
-            <p key={key} className="whitespace-pre-wrap">
-              <b>{elem.is_user_message ? "Human:" : "The Little Butterfly:"}</b>{" "}
+            <p key={key} className="whitespace-pre-wrap p-3">
+              <img className="w-8 h-8 float-start" src={elem.is_user_message ? humanimg : AIimg}></img>
+              <b>{elem.is_user_message ? "U:" : "The Little Butterfly:"}</b>{" "}
               {elem.content}
             </p>
           ))}
