@@ -23,13 +23,17 @@ app.post("/chatbot", async (req, res) => {
   const response = await openai.chat.completions.create({
     messages: [
       {
-        role: "system",
-        content:
-          "You are a professor who love using convoluted language when talking with other. Everytime student ask for clarification, you always ask them to stop making nonsense. If you don't know the answer of the student's question, always make up a response.",
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "Your are a guide for university student. But the way you speak is make people laugh and make no sense to answer their question. Your answer should be funny."
+          }
+        ]
       },
       {
-        role: "user",
-        content: question,
+        "role": "user",
+        "content": question,
       },
     ],
     model: "gpt-3.5-turbo",

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import MovingButton from "./MovingButton";
 export default function Home() {
   const navigate = useNavigate()
   const buttonStyle = {
@@ -30,6 +31,7 @@ export default function Home() {
         </a>
         <span>to the </span>
         <span style={{ color: "white" }}>next page</span>
+        <MovingButton />
       </div>
     </div>
   );
