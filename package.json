@@ -18,6 +18,7 @@
     "@mui/material": "^5.16.6",
     "axios": "^1.7.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jquery": "^3.7.1",
     "lucide-react": "^0.420.0",
