@@ -61,7 +61,7 @@ const MovingButton = () => {
         transition: isMoved ? 'top 0.2s, left 0.2s' : 'none', // button moving speed
       }}
     >
-       Click here to the Login page!
+       Click here to the next page!
     </button>
   );
 };
