@@ -51,12 +51,17 @@ function ChatBox() {
         <pre>
           {messages.map((elem, key) => (
             <p key={key} className="whitespace-pre-wrap">
-              <b>{elem.is_user_message ? "Human:" : "Poofessor of Ink:"}</b> {elem.content}
+              <b>{elem.is_user_message ? "Human:" : "Poofessor of Ink:"}</b>{" "}
+              {elem.content}
             </p>
           ))}
         </pre>
       </div>
-      <form onSubmit={handleSubmit} className="flex">
+      <form
+        onSubmit={handleSubmit}
+        className="flex"
+        style={{ width: "-webkit-fill-available" }}
+      >
         <div className="flex grow items-center border-white border border-solid">
           <div className="font-bold ml-4">Human:</div>
           <input
