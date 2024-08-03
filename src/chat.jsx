@@ -33,7 +33,7 @@ export default function Chat() {
       <div className="container w-full h-full">
         <div className="nav w-auto float-left border border-white p-4 h-full">
           <div className="h-12">
-            <FaPenFancy className="w-8 h-8 float-right"></FaPenFancy>
+            <FaPenFancy className="w-8 h-8 float-right animate-bounce"></FaPenFancy>
           </div>
           <div className="text-3xl font-extrabold">Chat Ink</div>
           <ul className="pb-6">
@@ -51,7 +51,7 @@ export default function Chat() {
         <div className="dashboard flex-col" style={{ display: "flex", height: "100%" }}>
           <div className="header h-20 w-full border-white border px-4 flex flex-row justify-between items-center text-right">
             Welcome!{" "}
-            <span className="text-slate-400 pl-2">
+            <span className="text-slate-400 pl-2 animate-ping">
               Why do I have to login for this
             </span>
             <CiFaceFrown className="w-4 h-4" />

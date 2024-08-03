@@ -53,7 +53,7 @@ function ChatBox() {
         <pre>
           {messages.map((elem, key) => (
             <p key={key} className="whitespace-pre-wrap p-3">
-              <img className="w-8 h-8 float-start" src={elem.is_user_message ? humanimg : AIimg}></img>
+              <img className="w-8 h-8 float-start animate-spin" src={elem.is_user_message ? humanimg : AIimg}></img>
               <b>{elem.is_user_message ? "U:" : "The Little Butterfly:"}</b>{" "}
               {elem.content}
             </p>
