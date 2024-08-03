@@ -47,7 +47,7 @@ function ChatBox() {
   return (
     <div className="flex flex-col items-center h-3/4 py-2">
       {loading && <div className="modal z-50}"></div>}
-      <div className="border-white border border-solid p-4 mb-2 w-[800px] grow overflow-y-scroll">
+      <div className="border-white border border-solid p-4 mb-2 grow overflow-y-scroll">
         <pre>
           {messages.map((elem, key) => (
             <p key={key} className="whitespace-pre-wrap">
@@ -56,7 +56,7 @@ function ChatBox() {
           ))}
         </pre>
       </div>
-      <form onSubmit={handleSubmit} className="flex w-[800px]">
+      <form onSubmit={handleSubmit} className="flex">
         <div className="flex grow items-center border-white border border-solid">
           <div className="font-bold ml-4">Human:</div>
           <input

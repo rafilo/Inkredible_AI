@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import ChatBox from "./chatbox";
 import { CiFaceFrown } from "react-icons/ci";
+import { FaPenFancy } from "react-icons/fa";
 
 export default function Chat() {
   const [value, setValue] = useState("");
