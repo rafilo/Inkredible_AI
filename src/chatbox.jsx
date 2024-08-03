@@ -8,7 +8,7 @@ function ChatBox() {
     {
       is_user_message: false,
       content:
-        "Hi, I'm an AI assistant designed to work perfectly with Ink. Good at giving nonsense that never helps. How can I help you?",
+        "Hello! I'm a little butterfly which is friendly and honest. Hope you had a good day with me after navigating here!",
     },
   ]);
   var loadingInterval;
@@ -51,7 +51,7 @@ function ChatBox() {
         <pre>
           {messages.map((elem, key) => (
             <p key={key} className="whitespace-pre-wrap">
-              <b>{elem.is_user_message ? "Human:" : "Poofessor of Ink:"}</b>{" "}
+              <b>{elem.is_user_message ? "Human:" : "The Little Butterfly:"}</b>{" "}
               {elem.content}
             </p>
           ))}

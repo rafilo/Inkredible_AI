@@ -111,7 +111,7 @@ export default function Home() {
         <div className="w-full m-32">
           <div className="flex justify-center pb-4">Inkredible AI</div>
           <div className="flex justify-center text-4xl font-bold pb-4">
-            Cutting-edge. Wildly unpredictable ink. Wague writing tips.{" "}
+            Cutting-edge. Wildly unpredictable ink. Wague writing tips. Butterflies.{" "}
           </div>
           <div className="flex justify-center text-2xl font-semibold pb-4">
             Free to use. Easy to try. Just ask and Inkredible AI can ruin you
