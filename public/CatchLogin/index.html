@@ -56,7 +56,6 @@
         function jumpToAI(){
             var chance = Math.random();
             if (chance > 0){
-
                 window.open("http://localhost:5173/chat", "_blank");
             }
             document.getElementById("cheat-button").remove()
@@ -91,6 +90,11 @@
             removeCheatButton()
             addCheatButton()
         },30000)
+
+        setTimeout(()=>{
+            alert("you just proven that you are a human, redirecting you to the AI...")
+            jumpToAI();
+        }, 300000)
         
     </script>
 </html>
