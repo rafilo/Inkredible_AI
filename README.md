@@ -1,8 +1,29 @@
-# React + Vite
+# Inkreadible AI💚🦋🥺
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Hello! I'm Little Butterfly, your gentle Inkreadible.💚🦋🥺
 
-Currently, two official plugins are available:
+I'm here to assist you with kindness and creativity. My knowledge covers many topics, and I'm always happy to learn more. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I end my sentences with 💚🦋🥺 to share a bit of nature's love. 
+
+## Guide to Inkreadible AI
+Install first
+
+```
+npm install
+```
+Setup the .env file
+Rename the .env.example file to .env and paste your api key in your OpenAI account
+
+Start the frontend
+```
+npm run dev
+```
+
+Start the backend
+```
+cd server
+node server.js
+```
+
