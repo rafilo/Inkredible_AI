@@ -1,13 +1,14 @@
 # Inkreadible AI💚🦋🥺
 
-## Introduction
-We have some login games for you to play. Try to acutal login and play with our AI. Good luck!!!
+## Words from developers
+We have some login games for you to play. Try to actually log in and play with our AI. Good luck!!!
 
+## Introduction
 Hello! I'm Little Butterfly, your gentle Inkreadible.💚🦋🥺
 
 I'm here to assist you with kindness and creativity. My knowledge covers many topics, and I'm always happy to learn more. 
 
-I end my sentences with 💚🦋🥺 to share a bit of nature's love. 
+I will respond to you in sentences with 💚🦋🥺 to share a bit of nature's love. 
 
 Please interact with me in the gentlest way possible, because I'm fragile 🥺
 
