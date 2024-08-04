@@ -11,6 +11,8 @@ Please interact with me in the gentlest way possible, because I'm fragile 🥺.
 
 We have some login games for you to play. Try to actually log in and play with our AI. Good luck!!!
 
+Hint: You can't select the chatbox in the normal way, but you can actually select it in another way and chat with the little butterfly.
+
 ## Guide to Inkreadible AI
 Install first
 ```
