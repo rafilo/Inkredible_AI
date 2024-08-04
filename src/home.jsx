@@ -61,15 +61,17 @@ export default function Home() {
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
-          <span className="font-bold text-4xl-custom leading-6 text-white">Ink</span>
-          <text className="text-sm font-semibold leading-6 text-white">redible</text>
+          <div style={{ transform: 'translateX(-210px)' }} >
+          <span className="font-bold text-4xl-custom text-white">Ink</span>
+          <span className="font-bold text-2xl-custom text-white">readible</span>
+          </div>
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <FaBiohazard className="w-8 h-8 text-white animate-spin" />
             </a>
           </div>
-          <div className="flex gap-x-8 text-center max-w-7xl">
+          <div className="flex gap-x-8 text-center max-w-7xl" style={{ transform: 'translateX(-90px)' }}>
             <a
               href="#"
               className="text-sm font-semibold leading-6 text-white"
@@ -104,26 +106,27 @@ export default function Home() {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900 pr-4"
             >
-              Log in <span aria-hidden="true">&rarr;</span>{" "}
+              Login <span aria-hidden="true">&rarr;</span>{" "}
               <FaBaby className="w-8 h-8 text-white animate-spin inline" />
             </a>
           </div>
         </nav>
       </header>
       <div className="mx-auto flex max-w-7xl items-center justify-between p-6" >
-        <div className="w-full m-32" style={{ transform: 'translateY(-150px)' }}>
-          <div className="flex justify-end mb-4">
-            <img src={ink} alt="Ink" style={{width: 350, height: 350}}/>
+        <div className="w-full m-32" style={{ transform: 'translateY(-210px)' }}>
+          <div className="flex" style={{ transform: 'translateX(+250px)' }}>
+            <img src={ink} alt="Ink" style={{width: 400, height: 400}}/>
           </div>       
           {/* <div className="flex justify-center pb-4">Inkredible AI</div> */}
-          <div className="flex justify-center text-4xl font-bold pb-4">
-            Cutting-edge. Wildly unpredictable ink. Wague writing tips. Butterflies.{" "}
+          <div className="flex font-bold text-3xl-custom justify-center">
+            Cutting - edge. Wildly Unpredictable ink. Vague writing tips. Butterflies.{" "}
           </div>
-          <div className="flex justify-center text-2xl font-semibold pb-4">
+
+          <div className="flex text-2xl-custom justify-center pb-4 p-6">
             Free to use. Easy to try. Just ask and Inkredible AI can ruin you
             with writing, learning, brainstorming, and more with truthy.
           </div>
-          <button className="bg-white text-black px-4 py-2 rounded-md text-center">
+          <button className="bg-white text-black px-4 py-2 rounded-md text-center p-6">
             Login after <span>{loginNumber}</span> years
           </button>
           <div className="pt-3">
@@ -143,7 +146,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative flex overflow-x-hidden" style={{ transform: 'translateY(-150px)' }}>
+      <div className="relative flex overflow-x-hidden" style={{ transform: 'translateY(-350px)' }}>
         <div className="py-12 animate-marquee whitespace-nowrap">
           {marqueeCardsContent.map((elem, key) => (
             <MarqueeCard

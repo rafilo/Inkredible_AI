@@ -29,7 +29,18 @@ module.exports = {
       },
       fontSize: {
         '4xl-custom': '40px', // Custom size for 40px
+        '2xl-custom': '25px', 
+        '2xl-custom2': '25px', 
+        '3xl-custom': '35px', 
+        
       },
+      lineHeight:{
+        '4xl-custom': '92px',
+        '2xl-custom': '92px', 
+        '3xl-custom': '45px', 
+        '2xl-custom2': '34px', 
+
+      }
 
     },
   },

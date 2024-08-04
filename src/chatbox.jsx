@@ -10,7 +10,8 @@ function ChatBox() {
     {
       is_user_message: false,
       content:
-        "Hello! I'm a little butterfly which is friendly and honest. Hope you had a good day with me after navigating here!",
+      "Hello! I'm Little Butterfly, your gentle Inkreadible.💚🦋 I'm here to assist you with kindness and creativity. My knowledge covers many topics, and I'm always happy to learn more. I end my sentences with 💚🦋 to share a bit of nature's love.",
+        // "Hello! I'm a little butterfly which is friendly and honest. Hope you had a good day with me after navigating here!",
     },
   ]);
   var loadingInterval;
@@ -69,7 +70,7 @@ function ChatBox() {
           <div className="font-bold ml-4">Human:</div>
           <input
             className="p-1 my-2 mx-4 h-12 text-black font-mono grow"
-            placeholder="Try type your message here !"
+            placeholder="How can Little Butterfly help you today?"
             name="message"
           />
         </div>
