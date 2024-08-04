@@ -16,9 +16,8 @@ Install first
 ```
 npm install
 ```
-Setup the .env file
 
-Rename the ".env.example" file to .env and paste your api key in your OpenAI account
+Rename the ".env.example" file to .env and paste your api key from your OpenAI account into VITE_OPEN_AI_KEY variable
 
 Start the frontend
 ```
