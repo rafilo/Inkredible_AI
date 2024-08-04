@@ -1,8 +1,5 @@
 # Inkreadible AI💚🦋🥺
 
-## Words from developers
-We have some login games for you to play. Try to actually log in and play with our AI. Good luck!!!
-
 ## Introduction
 Hello! I'm Little Butterfly, your gentle Inkreadible.💚🦋🥺
 
@@ -10,7 +7,9 @@ I'm here to assist you with kindness and creativity. My knowledge covers many to
 
 I will respond to you in sentences with 💚🦋🥺 to share a bit of nature's love. 
 
-Please interact with me in the gentlest way possible, because I'm fragile 🥺
+Please interact with me in the gentlest way possible, because I'm fragile 🥺.
+
+We have some login games for you to play. Try to actually log in and play with our AI. Good luck!!!
 
 ## Guide to Inkreadible AI
 Install first
