@@ -31,7 +31,7 @@ Start the backend
 cd server
 node server.js
 ```
-## Screenshots
+## Preview
 ![Logo](https://github.com/rafilo/Inkredible_AI/blob/master/images/screen1.png)
 ![Logo](https://github.com/rafilo/Inkredible_AI/blob/master/images/screen2.png)
 ![Logo](https://github.com/rafilo/Inkredible_AI/blob/master/images/screen3.png)
