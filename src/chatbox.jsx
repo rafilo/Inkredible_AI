@@ -68,7 +68,7 @@ function ChatBox() {
         <div className="flex grow items-center border-white border border-solid">
           <div className="font-bold ml-4">Human:</div>
           <input
-            className="p-1 my-2 mx-4 h-12 font-mono grow"
+            className="p-1 my-2 mx-4 h-12 text-black font-mono grow"
             placeholder="Try type your message here !"
             name="message"
           />

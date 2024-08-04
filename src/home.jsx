@@ -3,6 +3,7 @@ import MovingButton from "./MovingButton";
 import { FaBiohazard, FaBaby } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import MarqueeCard from "./marqueeCard";
+import ink from "./assets/WechatIMG163.png";
 
 export default function Home() {
   const [loginNumber, setLoginNumber] = useState("5372839431");
@@ -54,12 +55,14 @@ export default function Home() {
     return () => clearInterval(loginNumberInterval);
   }, [loginNumberInterval]);
   return (
-    <div>
+    <div className="font-sans">
       <header className="header border-b-2">
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
+          <span className="font-bold text-4xl-custom leading-6 text-white">Ink</span>
+          <text className="text-sm font-semibold leading-6 text-white">redible</text>
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -107,9 +110,12 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <div className="mx-auto flex max-w-7xl items-center justify-between p-6">
-        <div className="w-full m-32">
-          <div className="flex justify-center pb-4">Inkredible AI</div>
+      <div className="mx-auto flex max-w-7xl items-center justify-between p-6" >
+        <div className="w-full m-32" style={{ transform: 'translateY(-150px)' }}>
+          <div className="flex justify-end mb-4">
+            <img src={ink} alt="Ink" style={{width: 350, height: 350}}/>
+          </div>       
+          {/* <div className="flex justify-center pb-4">Inkredible AI</div> */}
           <div className="flex justify-center text-4xl font-bold pb-4">
             Cutting-edge. Wildly unpredictable ink. Wague writing tips. Butterflies.{" "}
           </div>
@@ -134,11 +140,10 @@ export default function Home() {
               with
             </a>
             <span> your truthy</span>
-            <MovingButton />
           </div>
         </div>
       </div>
-      <div className="relative flex overflow-x-hidden">
+      <div className="relative flex overflow-x-hidden" style={{ transform: 'translateY(-150px)' }}>
         <div className="py-12 animate-marquee whitespace-nowrap">
           {marqueeCardsContent.map((elem, key) => (
             <MarqueeCard
@@ -161,6 +166,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <MovingButton />
     </div>
   );
 }

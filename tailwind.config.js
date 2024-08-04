@@ -24,6 +24,13 @@ module.exports = {
             '75%': { transform: 'translateX(-10px)' },
           },
       },
+      fontFamily: {
+        'sans': ['Open Sans', 'sans-serif'],
+      },
+      fontSize: {
+        '4xl-custom': '40px', // Custom size for 40px
+      },
+
     },
   },
   plugins: [],

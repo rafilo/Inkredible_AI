@@ -52,6 +52,7 @@ const MovingButton = () => {
 
   return (
     <button
+      className='font-sans'
       ref={buttonRef}
       onClick={handleClick}
       style={{
@@ -61,7 +62,7 @@ const MovingButton = () => {
         transition: isMoved ? 'top 0.2s, left 0.2s' : 'none', // button moving speed
       }}
     >
-       Click here to the next page!
+       Click here to Login!
     </button>
   );
 };
