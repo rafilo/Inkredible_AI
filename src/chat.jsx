@@ -3,6 +3,7 @@ import { FaPenFancy } from "react-icons/fa";
 import axios from "axios";
 import ChatBox from "./chatbox";
 import { CiFaceFrown } from "react-icons/ci";
+import ink from "./assets/WechatIMG163.png";
 
 export default function Chat() {
   const [value, setValue] = useState("");
@@ -35,15 +36,15 @@ export default function Chat() {
           <div className="h-12">
             <FaPenFancy className="w-8 h-8 float-right animate-bounce"></FaPenFancy>
           </div>
-          <div className="text-3xl font-extrabold">Chat Ink</div>
-          <ul className="pb-6">
+          <div className="text-3xl font-extrabold text-left animate-shake">Chat Ink</div>
+          <ul className="pb-6 text-left animate-shake">
             <li className="pb-2">Does this really helps?</li>
             <li className="pb-2">What is the meaning of life?</li>
             <li className="pb-2">This is useless</li>
           </ul>
 
-          <div className="text-3xl font-extrabold">Earlier Ink</div>
-          <ul>
+          <div className="text-3xl font-extrabold text-left animate-shake">Earlier Ink</div>
+          <ul className="text-left animate-shake">
             <li className="pb-2">What is my history?</li>
             <li className="pb-2">ways to never give ink up</li>
           </ul>
@@ -78,7 +79,7 @@ export default function Chat() {
       >
         {showInk && (
           <>
-            <div
+            {/* <div
               style={{
                 position: "absolute",
                 backgroundColor: "black",
@@ -182,7 +183,20 @@ export default function Chat() {
                 height: 1650,
                 opacity: 0.8,
               }}
-            />
+            /> */}
+            <img src={ink} alt="Ink" style={{
+                position: "absolute",
+                // backgroundColor: "black",
+                borderRadius: "50%",
+                transform: `translate(${position.x - 500}px, ${
+                  position.y - 500
+                }px)`,
+                // left: -10,
+                // top: -600,
+                width: 1000,
+                height: 1000,
+                opacity: 0.95,
+              }}></img> 
           </>
         )}
       </div>

@@ -6,6 +6,7 @@ module.exports = {
       animation: {
         marquee: "marquee 25s linear infinite",
         marquee2: "marquee2 25s linear infinite",
+        shake: 'shake 0.5s infinite',
       },
       keyframes: {
         marquee: {
@@ -16,6 +17,12 @@ module.exports = {
           "0%": { transform: "translateX(100%)" },
           "100%": { transform: "translateX(0%)" },
         },
+        shake: {
+            '0%, 100%': { transform: 'translateX(0)' },
+            '25%': { transform: 'translateX(-10px)' },
+            '50%': { transform: 'translateX(10px)' },
+            '75%': { transform: 'translateX(-10px)' },
+          },
       },
     },
   },
@@ -23,5 +30,6 @@ module.exports = {
   animation: {
     marquee: "marquee 25s linear infinite",
     marquee2: "marquee2 25s linear infinite",
+    shake: 'shake 0.5s infinite',
   },
 };
